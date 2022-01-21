@@ -10,7 +10,7 @@ export default function About(props) {
                 {/* <p>There are also a range of converters to explore as well such as the binary code and morse code translators that will allow you to write up standard text and have it translated into the necessary code.</p> */}
                 <p>You can also use the text manipulators to allow your text to stand out. Whether that’s for social media purposes or you want to bring some attention to an advertisement, these tools are a great solution for fixing those issues too.</p>
                 <p>Of course, if you have any suggestions over new tools that should be added and created that could help benefit, then by all means, please <a href="mailto:diliprk95@gmail.com">get in touch</a> with us and we will be more than happy to help you.</p>
-                <p><Link to="/" className="btn btn-primary">Return to Text Editor</Link></p>
+                <p><Link to="/word-editor" className="btn btn-primary">Return to Text Editor</Link></p>
             </div>
         </>
     )

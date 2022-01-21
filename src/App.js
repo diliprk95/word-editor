@@ -45,7 +45,7 @@ function App() {
       <Alert className="my-1" alert={alert}/>
       <div className='container my-3 widthfull' id='myContainer'>
       <Routes>
-            <Route exact path='' element={<TextEditor showAlert={showAlert} label="Enter Text to Edit" mode={mode}/>}/>
+            <Route exact path='word-editor' element={<TextEditor showAlert={showAlert} label="Enter Text to Edit" mode={mode}/>}/>
             <Route exact path='about' element={<About mode={mode}/>}/>
       </Routes>
       </div>  
